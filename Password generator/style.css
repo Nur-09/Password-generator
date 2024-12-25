@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 40%;
+    height: 70vh;
+    border-radius: 20px;
+}
+
+.email_img {
+    width: 200px;
+    height: 150px;
+}
+
+.resfresh_svg {
+    width: 70px;
+    height: 30px;
+}
+
+.group_number {
+    width: 57vh;
+    height: 70px;
+    font-size: 35px;
+    letter-spacing: 90px;
+    margin: 20px 0;
+    padding: 15px 20px;
+    color: green;
+    border: 1px solid green;
+}
+
+.btn_refresh {
+    width: 50vh;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    background-color: green;
+}
+
+.decs {
+    color: grey;
+    opacity: 1;
+}
